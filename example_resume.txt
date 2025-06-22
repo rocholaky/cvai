@@ -1,0 +1,65 @@
+\NewPart{Experiencia Laboral}
+
+\WorkEntry{Científico de Datos}{Julio 2023 – Presente}{Brain Food an Artefact company}{
+    \begin{itemize}
+        \item Procesé, analicé y entrené modelos en entornos de \textbf{big data} \textbf{($>$ 60 millones de registros)} , utilizando \textbf{PySpark} y \textbf{SQL} para optimizar modelos y algoritmos para clientes como VISA, Nestlé.
+        \item Implementé pipelines de machine learning a gran escala en \textbf{PySpark ML}, adhiriéndome a las \textbf{mejores prácticas de MLOps} para mejorar la escalabilidad y eficiencia, proporcionando soluciones de ML listas para producción.
+        \item Desarrollé varios \textbf{modelos de clasificación}—incluyendo propensión de compra, churn y activación de tarjetas—que predicen el comportamiento mensual de los clientes basándose en su actividad reciente.
+        \item Diseñé y desplegué \textbf{agentes de GenAI} utilizando LLMs multimodales, Retrieval Augmented Generation (RAG) y rúbricas personalizadas para automatizar las evaluaciones de clases a partir de audios de Zoom en entorno \textbf{Azure}.
+        \item Implementé infraestructura en la nube con despliegues en contenedores para agentes de GenAI en \textbf{GCP} donde desarrollé una “fábrica de chatbots” que permite que diversos equipos de Femsa puedan llevar sus propios agentes a producción utilizando \textbf{Langchain}, \textbf{Langraph} con su respectivo modelo de datos y arquitectura cloud. En específico se diseñó un agente de apoyo a los equipos de Experimentación de Femsa.
+        \item Construí y puse en producción \textbf{modelos de segmentación de usuarios} para identificar patrones de comportamiento y perfiles de clientes, permitiendo una planificación y optimización más efectivas de las campañas de marketing.
+        \item Colaboré con equipos de \textbf{producto e ingeniería} para integrar modelos predictivos en los sistemas de producción, asegurando una implementación robusta y entregando insights accionables para la toma de decisiones estratégicas.
+        \item Diseñé e implementé \textbf{modelos de pronóstico y regresión} para la predicción de la demanda en la industria alimentaria (\textit{Sell-in/Sell-out}), logrando un error \textbf{$< 10 \%$} para Nestlé y mejorando la precisión de las ventas en una empresa de retail del Salvador en un \textbf{11 \%} mediante métodos como Prophet, modelos basados en árboles y ARIMA.
+    \end{itemize}
+}
+
+\WorkEntry{Ingeniero de Datos Senior}{Marzo 2020 – Junio 2023}{Arkenco Marketing and Sales Analytics}{
+    \begin{itemize}
+        \item Lideré la modernización de la infraestructura de datos de Arkenco desarrollando \textbf{pipelines escalables y automatizados} que integraron múltiples fuentes de datos y mejoraron la disponibilidad de información en tiempo real para optimizar las estrategias de marketing y ventas.
+        \item Desarrollé el \textbf{CRM de Arkenco} con un backend basado en Docker (Python/Django) y un frontend en React para soportar una base de clientes en crecimiento y mejorar la eficiencia operativa.
+        \item Integré la plataforma con la \textbf{API de WhatsApp} y construí \textbf{chatbots inteligentes} para automatizar las comunicaciones con los clientes, contribuyendo a un \textbf{aumento del 15\% en la adquisición de clientes}.
+    \end{itemize}
+}
+
+\WorkEntry{Prácticante de Ingeniero de Machine Learning}{Enero 2020 – Marzo 2020}{Asicom}{
+    \begin{itemize}
+        \item Diseñé un prototipo de chatbot para el procesamiento automatizado de documentos, aprovechando técnicas de OCR y NLP para extraer información de imágenes de cédulas de identidad, archivos PDF y hojas de cálculo de Excel.
+        \item Redacté y presenté un tutorial completo de AWS para el personal de la empresa, cubriendo los servicios principales de la nube y las mejores prácticas para acelerar la adopción de la tecnología en la nube.
+    \end{itemize}
+}
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Educación}
+
+\begin{tabular}{p{0.5\textwidth} p{0.45\textwidth}}
+    Diploma Making Data-Driven Decisions & Massachusetts Institute of Technology (MIT) IDSS \\
+    Magíster en Ciencias de la Ingeniería, Mención Inteligencia Computacional & Universidad de Chile (Distinción Máxima) \\
+    Minor en Ciencia de Datos & Universidad de Chile \\
+    Ingeniería Civil Eléctrica (Mención Inteligencia Computacional) & Universidad de Chile (Distinción Máxima) \\
+\end{tabular}
+%%% Exp Académica
+%%% ------------------------------------------------------------
+
+\NewPart{Experiencia de Investigación}
+\EducationEntry{Investigador en Aprendizaje por Refuerzo y Regresión Simbólica}{2021 – 2023}{Universidad de Chile}{
+        \item Lideré una investigación sobre reinforcement learning cooperativo multi-agente Actor-Critic en TensorFlow, reduciendo el tiempo de entrenamiento en un 15\%, y desarrollé un modelo neuronal en PyTorch para regresión simbólica, aumentando la precisión en más de un 25\%.
+        }
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{Habilidades Técnicas}
+
+\begin{tabular}{p{0.45\textwidth} p{0.45\textwidth}} % Two columns, each with 45% of the text width
+    \textbf{Lenguajes de Programación} & \textbf{Frameworks} \\
+    Python $|$ SQL $|$ Java & PyTorch $|$ TensorFlow $|$ Spark $|$ MLflow $|$ DVC $|$ Pandas $|$ Polars $|$ Scikit-learn $|$ FastAPI $|$ Flask \\
+    &\\
+    \textbf{Software} & \textbf{Servicios en la Nube} \\
+    Docker $|$ Git $|$ GitLab CI $|$ Tableau $|$ Microsoft Office $|$ GitHub Actions $|$ Airflow $|$ Great Expectations & Azure (Azure ML, Databricks) $|$ Google Cloud (BigQuery, Vertex AI) $|$ Amazon Web Services (AWS) \\
+    &\\
+    \textbf{Idiomas} & \textbf{Visualización}\\
+    Español - Nativo $|$ Inglés - Avanzado B2 (TOEFL) & Matplotlib $|$ Seaborn $|$ Tableau $|$ Looker Studio\\
+\end{tabular}
+\NewPart{Certificaciones}
+
+\EducationEntry{Especialización en Procesamiento de Lenguaje Natural}{DeepLearning.ai}{Especialización en PLN, obteniendo una comprensión profunda de modelos avanzados como Transformer, GPT y BERT, aplicando técnicas de aprendizaje profundo para el análisis y la comprensión del lenguaje natural. Desarrollé habilidades en aplicaciones como la generación de texto y el análisis semántico.}
+
+\EducationEntry{Carrera de Ingeniero de Machine Learning}{Datacamp.com}{Diploma en Ingeniería de Machine Learning, cubriendo el ciclo completo desde el desarrollo hasta el despliegue de modelos en producción. Adquirí experiencia en MLOps, CI/CD, versionamiento de modelos y gestión de desafíos como el data drift y el concept drift para garantizar la fiabilidad y eficiencia de los modelos en entornos dinámicos.}
